@@ -1,0 +1,60 @@
+@font-face{
+    src: url("./fonts/CursedTimerULiL.ttf");
+    font-family: "Cursed";
+}
+*{
+  padding:0;
+  margin:0;
+}
+body {
+    margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif,sans-serif;
+  text-align:center;
+}
+.border{
+  border:1px solid yellow;
+}
+
+.container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+  align-items:center;
+    max-width:575px;
+    min-height:383px;
+    background:#1B244A;
+}
+.team-score{
+  display:flex;
+  flex-direction : column;
+  justify-content:center;
+  gap:12px;
+}
+h3{
+  color:#EEEEEE;
+  font-weight: 700;
+  font-size:40px;
+}
+.points{
+    font-size:90px;
+  background:#080001;
+  color:#F94F6D;
+  font-family:Cursed;
+  border-radius:5px;
+  padding-top:14px;
+}
+
+.score-btns{
+   display:flex;
+  justify-content: space-between;
+  gap:12px;
+}
+.btn{
+  height:45px;
+  width:45px;
+  background:transparent;
+  border:2px solid #9AABD8;
+   color: #9AABD8;
+  border-radius:5px;
+  font-family:Cursed;
+}
